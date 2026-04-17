@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ankit Nayak - Full Stack Developer</title>
+    <link rel="stylesheet" href="css/new-style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#home" class="logo">&lt;Ankit /&gt;</a>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="mobile-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container hero-grid">
+            <div class="hero-left">
+                <div class="status-badge">
+                    <span class="dot"></span>
+                    AVAILABLE FOR WORK
+                </div>
+                <h1 class="hero-title">
+                    Hi, I'm<br>
+                    <span class="gradient-text">Ankit</span><br>
+                    <span class="gradient-text">Nayak</span>
+                </h1>
+                <p class="hero-role">Full Stack Devel</p>
+                <p class="hero-desc">
+                    Passionate B.Tech Computer Engineering graduate building 
+                    modern web applications with Python, Django & cutting-edge 
+                    frontend technologies.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn-primary">Hire Me 🚀</a>
+                    <a href="#projects" class="btn-secondary">View Projects →</a>
+                </div>
+                <div class="social-links">
+                    <a href="#" class="social-item">
+                        <span class="icon">🔗</span> GitHub
+                    </a>
+                    <a href="#" class="social-item">
+                        <span class="icon">💼</span> LinkedIn
+                    </a>
+                    <a href="#" class="social-item">
+                        <span class="icon">✉️</span> Email
+                    </a>
+                </div>
+            </div>
+            <div class="hero-right">
+                <div class="profile-circle">
+                    <img src="https://via.placeholder.com/400" alt="Ankit Nayak">
+                    <div class="badge badge-python">
+                        <span class="icon">🐍</span> Python
+                    </div>
+                    <div class="badge badge-django">
+                        <span class="icon">⚡</span> Django
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-down">SCROLL</div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">ABOUT ME</span>
+                <h2 class="section-title">Who I <span class="gradient-text">Am</span></h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-left">
+                    <img src="https://via.placeholder.com/350" alt="Profile">
+                    <div class="degree-tag">B.Tech<br>2025</div>
+                </div>
+                <div class="about-right">
+                    <p class="about-text">
+                        I'm a <strong>motivated Computer Engineering graduate</strong> from Trident 
+                        Academy of Technology (Class of 2025), with a deep passion for 
+                        building modern web applications.
+                    </p>
+                    <p class="about-text">
+                        My expertise lies in <strong class="highlight">Python full-stack development</strong> — from 
+                        backend APIs with Django to dynamic frontends. I love turning 
+                        ideas into clean, working software.
+                    </p>
+                    <p class="about-text">
+                        Outside of code, I've been an active <strong>member of the College 
+                        Cultural Committee</strong>, which sharpened my communication and 
+                        leadership skills.
+                    </p>
+                    <div class="features-grid">
+                        <div class="feature-box">
+                            <span class="feature-icon">🎯</span>
+                            <h4>Goal Oriented</h4>
+                            <p>Focused on delivering clean, efficient solutions to real-world problems.</p>
+                        </div>
+                        <div class="feature-box">
+                            <span class="feature-icon">🤝</span>
+                            <h4>Team Player</h4>
+                            <p>Experienced working in teams, sharing ideas and hitting goals together.</p>
+                        </div>
+                        <div class="feature-box">
+                            <span class="feature-icon">📚</span>
+                            <h4>Fast Learner</h4>
+                            <p>Continuously learning new technologies and frameworks to stay current.</p>
+                        </div>
+                        <div class="feature-box">
+                            <span class="feature-icon">🔧</span>
+                            <h4>Problem Solver</h4>
+                            <p>Strong analytical mindset — breaks down complex problems into simple steps.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">TECHNICAL SKILLS</span>
+                <h2 class="section-title">My <span class="gradient-text">Expertise</span></h2>
+            </div>
+            <div class="skills-grid" id="skillsGrid"></div>
+            <div class="progress-bars" id="progressBars"></div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">MY WORK</span>
+                <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+            </div>
+            <div class="projects-grid" id="projectsGrid"></div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="education" id="education">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">ACADEMIC BACKGROUND</span>
+                <h2 class="section-title">My <span class="gradient-text">Education</span></h2>
+            </div>
+            <div class="timeline" id="timeline"></div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">CONTACT</span>
+                <h2 class="section-title">Let's <span class="gradient-text">Connect</span></h2>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-left">
+                    <p class="contact-intro">
+                        I'm actively seeking <strong>entry-level Full Stack / Python 
+                        Developer</strong> roles. If you have an opportunity, a project 
+                        idea, or just want to chat about tech — I'd love to hear 
+                        from you!
+                    </p>
+                    <div class="contact-info">
+                        <div class="info-item">
+                            <span class="info-icon">📱</span>
+                            <div>
+                                <h4>PHONE</h4>
+                                <p>+91 9337174963</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-icon">✉️</span>
+                            <div>
+                                <h4>EMAIL</h4>
+                                <p>ankitanup9999@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-icon">📍</span>
+                            <div>
+                                <h4>LOCATION</h4>
+                                <p>Odisha, India</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-row">
+                        <a href="#" class="social-btn">LinkedIn</a>
+                        <a href="#" class="social-btn">Instagram</a>
+                        <a href="#" class="social-btn">WhatsApp</a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <div class="hire-badge">OPEN TO WORK</div>
+                    <h3>Hire Me Today</h3>
+                    <p>Available immediately for full-time entry-level positions in Full Stack or Python development.</p>
+                    <a href="mailto:ankitanup9999@gmail.com" class="btn-email">Send an Email 📧</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2025 Ankit Anup Nayak · Built with React + Vite ⚡</p>
+    </footer>
+
+    <script src="js/data.js"></script>
+    <script src="js/new-main.js"></script>
+</body>
+</html>

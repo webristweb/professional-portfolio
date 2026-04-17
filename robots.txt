@@ -1,0 +1,15 @@
+# robots.txt for Portfolio Website
+
+User-agent: *
+Allow: /
+
+# Disallow admin or private directories (if any)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /config.php
+
+# Sitemap location
+Sitemap: http://localhost/portfolio/sitemap.xml
+
+# Crawl-delay (optional)
+Crawl-delay: 10
